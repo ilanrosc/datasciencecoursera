@@ -2,7 +2,7 @@ complete <- function(directory, id = 1:332) {
         setwd(paste(getwd(), "/", directory, sep = ""))
         # list all files in the directory dir()
         filename <- dir()
-        #Load all fileas as a list
+        #Load all files as a list
         
         filelist <- lapply(filename, read.csv)
         
